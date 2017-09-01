@@ -6,15 +6,15 @@ printf("enter 3 no");
 scanf("%d",&a,&b,&c);
 if(a>b||a>c)
 {
-printf("a is greater");
+printf("a is greater",&a);
 }
 else if(b>c||b>a)
 {
-printf("b is greater");
+printf("b is greater",&b);
 }
 else
 {
-printf("c is greater");
+printf("c is greater",&C);
 }
 
 }
